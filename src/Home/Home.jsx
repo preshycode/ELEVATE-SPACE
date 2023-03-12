@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="max-sm:bg-homeMobile sm:bg-homeTablet xl:bg-homeDesktop bg-no-repeat bg-cover h-auto relative  text-white">
-      <div className="w-full  pt-32 max-sm:px-10 max-md:text-center items-center flex flex-col justify-between items-start md:text-center max-lg:px-40 sm:pt-48 lg:flex-row lg:text-left lg:px-48 lg:items-end lg:pt-80 pb-96  ">
+    <div className="max-sm:bg-homeMobile sm:bg-homeTablet xl:bg-homeDesktop bg-no-repeat bg-cover h-auto lg:h-screen relative  text-white">
+      <div className="w-full  pt-32 max-sm:px-10 max-md:text-center items-center flex flex-col justify-between items-start md:text-center max-lg:px-40 sm:pt-48 lg:flex-row lg:text-left lg:px-48 lg:items-end lg:pt-80 max-lg:pb-96  ">
         <div className="home-text lg:w-1/2">
           <p className="uppercase font-barlow tracking-mywide uppercase font-thin text-sm text-slate-300 lg:text-xl">
             so, you want to travel to
